@@ -1,0 +1,375 @@
+/* navbar bg */
+body{
+  margin-left: 10px;
+  margin-right: 10px;
+}
+#selldiv{
+  height: 400px;
+  /* background-color: red; */
+  background-image: url('https://media.istockphoto.com/id/1149958175/photo/modern-skyscrapers-in-midtown-manhattan.webp?b=1&s=170667a&w=0&k=20&c=GGpQK-UrXnhe25zSk4yNixalZfZoYGcOX-Q65zx5wkA=');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  width: 100%;
+  position: relative;
+}
+#selltext{
+
+  color: white;
+  margin-top: 80px;
+ margin-left: 120px;
+}
+@media (max-width:768px){
+#selldiv{
+  height: 300px;}
+  #selltext{
+font-size: 25px;
+    color: white;
+    margin-top: 80px;
+    margin-left: 10px;
+  }
+}
+/* property popup */
+.popover-body1 {
+  display: flex;
+  justify-content: space-between;
+  background-color: #080e50;
+  color: white;
+  padding: 20px;
+
+  width: 36.5vw;
+column-gap: 35px;
+
+  left: 0 !important; /* Align it from the left */
+}
+#popover-properties{
+
+  background-color: transparent;
+  color: white;
+  padding: 20px;
+  width: 40vw;
+
+border:none;
+  left: 0 !important;
+}
+.popover-column1 {
+  flex: 1;
+  margin-right: 20px;
+}
+
+.popover-column1 h4 {
+  margin-bottom: 10px;
+  font-size: 18px;
+  font-weight: bold;
+  color:white;
+
+}
+
+.popover-column1 ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.popover-column1 ul li {
+  margin-bottom: 5px;
+}
+
+.popover-column1 ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+.popover-column1 ul li a:hover {
+  text-decoration: underline;
+}
+
+
+/* resourse popup */
+.popover-body2 {
+  display: flex;
+  justify-content: space-between;
+  justify-content: space-between;
+  background-color: #080e50;
+  color: white;
+  padding: 20px;
+  width: 50vw;
+  margin-left: -130px;
+}
+/* services popup */
+.popover-body3 {
+  display: flex;
+  justify-content: space-between;
+  justify-content: space-between;
+  background-color: #080e50;
+  color: white;
+  padding: 20px;
+  width: 15vw;
+  margin-left: 10px;
+}
+
+
+#popover-resources{
+
+  background-color: transparent;
+  color: white;
+  padding: 20px;
+  width: 60vw;
+  margin-left: -130px;
+
+border:none;
+  left: 0 !important;
+}
+.popover-column2 {
+  flex: 1;
+  margin-right: 20px;
+}
+
+.popover-column2 h4 {
+  margin-bottom: 10px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.popover-column2 ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.popover-column2 ul li {
+  margin-bottom: 5px;
+}
+
+.popover-column2 ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+.popover-column2 ul li a:hover {
+  text-decoration: underline;
+}
+
+.navbar-button2 {
+  background-color: transparent;
+  border: none;
+  color: white;
+  font-weight: bold;
+}
+
+.search-button {
+  background-color: transparent;
+  border: none;
+  color: white;
+  font-size: 27px;
+}
+
+.sell-button {
+  border: 1px solid white;
+  color: white;
+  border-radius: 50px;
+  cursor: pointer;
+  padding: 10px 20px;
+  margin-top: -10px;
+}
+
+.column-header2 {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.column-header2 img {
+  /* width: 24px;
+  height: 24px; */
+  margin-right: 10px;
+}
+
+.explore-more {
+  /* margin-top: 10px; */
+  font-weight: bold;
+  color: white;
+  cursor: pointer;
+  margin-bottom: 20px;
+  position: relative;
+}
+
+
+/* navbar bg */
+#selldiv{
+  height: 400px;
+  /* background-color: red; */
+  background-image: url('https://media.istockphoto.com/id/1149958175/photo/modern-skyscrapers-in-midtown-manhattan.webp?b=1&s=170667a&w=0&k=20&c=GGpQK-UrXnhe25zSk4yNixalZfZoYGcOX-Q65zx5wkA=');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  width: 100%;
+  position: relative;
+}
+#selltext{
+
+  color: white;
+  margin-top: 80px;
+ margin-left: 120px;
+}
+/* events */
+.event-h{
+  font-size: 52px;
+  line-height: 1.2;
+  color: #000;
+  font-weight: 500;
+  font-style: normal;
+}
+.event-p{
+  font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 1.7;
+    color: #333538;
+}
+
+.imggal{
+  margin-left: 65px;
+  margin-right: 65px;
+}
+@media (max-width:768px){
+  .imggal{
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+#selldiv{
+  height: 300px;}
+  #selltext{
+font-size: 25px;
+    color: white;
+    margin-top: 80px;
+    margin-left: 10px;
+  }
+  .popover-body1 {
+    display: flex;
+    justify-content: space-between;
+    background-color: #080e50;
+    color: white;
+    padding: 20px;
+    width: 100%;
+  
+    left: 0 !important; /* Align it from the left */
+  }
+  .body{
+    margin: 10px;
+    padding: 10px;
+  }
+  .event-h{
+    font-size: 30px;
+    line-height: 1.2;
+    color: #000;
+    font-weight: 500;
+    font-style: normal;
+  }
+}
+
+@media (min-width:768px) and (max-width:1200px){
+  .imggal{
+    margin-left: 40px;
+    margin-right: 40px;
+  }}
+  .mapcard-container {
+    width: 300px;
+    border: 1px solid #e0e0e0;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    position: relative;
+    background-color: white;
+  }
+  /* cvard above map */
+  .mapcard-image {
+    position: relative;
+  }
+  
+  .mapcard-image img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  
+  .mapplay-button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+  }
+  
+  .mapcard-content {
+    padding: 15px;
+  }
+  
+  .mapcard-title {
+    font-size: 18px;
+    margin: 0;
+    margin-bottom: 10px;
+  }
+  
+  .mapcallback-button {
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 12px;
+    margin-bottom: 10px;
+  }
+  
+  .mapcard-description {
+    font-size: 14px;
+    margin: 0;
+    margin-bottom: 10px;
+  }
+  
+  .mapphone-number {
+    font-size: 14px;
+    margin: 0;
+    margin-bottom: 10px;
+    cursor: pointer;
+  }
+  
+  .mapknow-more-button {
+    background-color: #080e50;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 12px;
+    float: right;
+  }
+  .deg{
+    color: black;
+    font-size: 25px;
+    float: right;
+    margin-top: -10px;
+  }
+  .mapcard-arrow {
+    position: absolute;
+    bottom: -20px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 0;
+    height: 0;
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    border-top: 20px solid white;
+  }
+  

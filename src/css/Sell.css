@@ -1,0 +1,135 @@
+
+  .sell-imgg, .sell-img2 {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+  
+  .sell-bntn2 {
+    width: 100%;
+    margin-top: 0px;
+    margin-left: 15%;
+    height: 70%;
+    background-color: #2c378f; /* Initial background color */
+    color: white; /* Initial text color */
+    border: 1px solid #2c378f; /* Optional: Add border for clarity */
+    cursor: pointer; /* Change cursor to pointer on hoverable element */
+    transition: background-color 0.3s, color 0.3s; /* Smooth transition */
+  
+    /* Center text vertically and horizontally */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .sell-bntn2:hover {
+    background-color: white; /* Background color on hover */
+    color: #2c378f; /* Text color on hover */
+  }
+  .sell-bntn3 {
+    width: 45%;
+    margin-top: 10px;
+    height: 8.5%;
+    background-color: #2c378f; /* Initial background color */
+    color: white; /* Initial text color */
+    border: 1px solid #2c378f; /* Optional: Add border for clarity */
+    cursor: pointer; /* Change cursor to pointer on hoverable element */
+    transition: background-color 0.3s, color 0.3s; /* Smooth transition */
+
+  }
+  .sell-card-m .col-md-3 {
+
+    margin-bottom: 15px;
+  }
+ 
+  .react-tel-input .form-control {
+    width: 100%;
+    height:45px
+  }
+ #iii {
+ margin: 20px;
+  }
+  .sell-p{
+    font-style: normal;
+    font-weight:300;
+    font-size: 16px;
+    line-height: 1.7;
+    color: #333538;
+    word-break: break-word;
+
+  }
+  @media (max-width: 767px) {
+     #iii {
+ margin: 20px;
+  }
+    .container {
+        padding: 0px;
+      }
+      #pv{
+        margin-left: 80px;
+      }
+      .sell-bntn3 {
+        width: 80%;
+        margin-top: 10px;
+        height: 40px
+      }
+    .sell-card-m .col-md-3 {
+      width: 100%;
+      margin-bottom: 15px;
+    /* padding-left: 35px; */
+    }
+  
+    .sell-bntn2{
+        /* width: 20%; */
+        margin-top: 20px;
+        margin-left: 0%;
+        height: 40px;
+      }
+    
+    .accordion-button {
+      width: 100%;
+    }
+    #iii {
+      margin: 0px;
+      padding: 0px;
+       }
+    .sell-img2 {
+      width: 100%;
+      height: auto;
+    }
+  
+    .sell-icon {
+      flex-direction: column-reverse;
+    }
+  }
+  
+  @media (max-width: 576px) {
+    
+    .sell-imgg {
+      width: 100%;
+      height: auto;
+    }
+    .sell-bntn3 {
+      width: 50%;
+      margin-top: 10px;
+      height: 40px;
+    }
+    /* .sell-accon {
+      padding: 15px;
+    } */
+  
+    .sell-bntn2, .sell-bntn3 {
+      width: 100%;
+    }
+  
+    .sell-card-m .col-md-3 {
+      width: 100%;
+    }
+  }
+  
+
+  @media (min-width: 768px) and (max-width:1200px){
+  .sell-bntn3 ,  .sell-bntn2 {
+    width: 100%;
+    margin-top: 10px;
+
+  }}

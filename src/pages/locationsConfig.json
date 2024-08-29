@@ -1,0 +1,174 @@
+{
+      
+          "Downtown": {
+            "center": { "lat": 25.2048, "lng": 55.2744 },
+            "zoom": 15,
+            "locations": [
+              {
+                "lat": 25.1972,
+                "lng": 55.2744,
+                "text": "Burj Khalifa",
+                "image": "/images/burj-khalifa.jpg",
+                "contact": "+971 4 888 8888"
+              },
+              {
+                "lat": 25.1985,
+                "lng": 55.2796,
+                "text": "Dubai Mall",
+                "image": "/img/jasbir-siingh-sachdeva.webp",
+                "contact": "+971 4 362 7500"
+              },
+              {
+                "lat": 25.1934,
+                "lng": 55.2689,
+                "text": "Dubai Opera",
+                "image": "/images/dubai-opera.jpg",
+                "contact": "+971 4 440 8888"
+              },
+              {
+                "lat": 25.1927,
+                "lng": 55.2799,
+                "text": "The Address Downtown Dubai",
+                "image": "/images/address-downtown.jpg",
+                "contact": "+971 4 436 8888"
+              }
+            ]
+          },
+          "Marina": {
+            "center": { "lat": 25.0773, "lng": 55.1358 },
+            "zoom": 15,
+            "locations": [
+              {
+                "lat": 25.0866,
+                "lng": 55.1467,
+                "text": "Cayan Tower",
+                "image": "/images/cayan-tower.jpg",
+                "contact": "+971 4 504 8888"
+              },
+              {
+                "lat": 25.0895,
+                "lng": 55.1471,
+                "text": "Marina Torch",
+                "image": "/images/marina-torch.jpg",
+                "contact": "+971 4 427 8888"
+              },
+              {
+                "lat": 25.0898,
+                "lng": 55.1476,
+                "text": "Princess Tower",
+                "image": "/images/princess-tower.jpg",
+                "contact": "+971 4 369 8888"
+              },
+              {
+                "lat": 25.0743,
+                "lng": 55.1423,
+                "text": "Almas Tower",
+                "image": "/images/almas-tower.jpg",
+                "contact": "+971 4 365 8888"
+              }
+            ]
+          },
+          "Palm_Jumeirah": {
+            "center": { "lat": 25.1120, "lng": 55.1390 },
+            "zoom": 15,
+            "locations": [
+              {
+                "lat": 25.1304,
+                "lng": 55.1175,
+                "text": "Atlantis The Palm",
+                "image": "/images/atlantis-the-palm.jpg",
+                "contact": "+971 4 426 0000"
+              },
+              {
+                "lat": 25.1115,
+                "lng": 55.1390,
+                "text": "The Palm Tower",
+                "image": "/images/palm-tower.jpg",
+                "contact": "+971 4 345 0000"
+              },
+              {
+                "lat": 25.1092,
+                "lng": 55.1386,
+                "text": "Dukes The Palm",
+                "image": "/images/dukes-the-palm.jpg",
+                "contact": "+971 4 455 1000"
+              },
+              {
+                "lat": 25.1301,
+                "lng": 55.1564,
+                "text": "Waldorf Astoria Dubai Palm Jumeirah",
+                "image": "/images/waldorf-astoria.jpg",
+                "contact": "+971 4 818 8888"
+              }
+            ]
+          },
+          "Deira": {
+            "center": { "lat": 25.2684, "lng": 55.3093 },
+            "zoom": 15,
+            "locations": [
+              {
+                "lat": 25.2644,
+                "lng": 55.3160,
+                "text": "Deira Clocktower",
+                "image": "/images/deira-clocktower.jpg",
+                "contact": "+971 4 222 2222"
+              },
+              {
+                "lat": 25.2668,
+                "lng": 55.3165,
+                "text": "Al Ghurair Centre",
+                "image": "/images/al-ghurair-centre.jpg",
+                "contact": "+971 4 227 7777"
+              },
+              {
+                "lat": 25.2876,
+                "lng": 55.3134,
+                "text": "Hyatt Regency Dubai",
+                "image": "/images/hyatt-regency.jpg",
+                "contact": "+971 4 209 1234"
+              },
+              {
+                "lat": 25.2530,
+                "lng": 55.3341,
+                "text": "Deira City Centre",
+                "image": "/images/deira-city-centre.jpg",
+                "contact": "+971 4 295 1010"
+              }
+            ]
+          },
+          "Business_Bay": {
+            "center": { "lat": 25.1847, "lng": 55.2652 },
+            "zoom": 15,
+            "locations": [
+              {
+                "lat": 25.1851,
+                "lng": 55.2587,
+                "text": "JW Marriott Marquis Dubai",
+                "image": "/images/jw-marriott-marquis.jpg",
+                "contact": "+971 4 414 0000"
+              },
+              {
+                "lat": 25.1864,
+                "lng": 55.2611,
+                "text": "The Oberoi Dubai",
+                "image": "/images/oberoi-dubai.jpg",
+                "contact": "+971 4 444 1444"
+              },
+              {
+                "lat": 25.1858,
+                "lng": 55.2617,
+                "text": "Paramount Hotel Dubai",
+                "image": "/images/paramount-hotel.jpg",
+                "contact": "+971 4 456 0000"
+              },
+              {
+                "lat": 25.1867,
+                "lng": 55.2609,
+                "text": "Bay Square",
+                "image": "/images/bay-square.jpg",
+                "contact": "+971 4 432 2222"
+              }
+            ]
+          }
+        }
+        

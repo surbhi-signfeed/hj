@@ -1,0 +1,90 @@
+.filter-popup7 {
+    background-color: #080e50;
+    color: white;
+    padding: 20px;
+    
+    position: relative;
+    width: 579px;
+    height: 180px;
+    margin-left: -16px;
+
+  }
+  
+  .close-button {
+    position: absolute;
+    top: 10px;
+    /* right: 10px; */
+    background: none;
+    border: none;
+    color: white;
+    font-size: 80px;
+    cursor: pointer;
+  }
+ 
+  .filter-section7 {
+    margin-bottom: 20px;
+  }
+
+  .slider-container7 {
+    position: relative;
+  }
+  
+ 
+   .custom-popover7 {
+    background-color:#080e50;    border: none;
+   
+    margin-left: -101px;
+    height:180px;
+    margin-top: 50px;
+  }
+  
+  .custom-popover7 .popover-body {
+    background-color: #080e50;    width: 579px;
+    margin-left: -100px;
+    height:180px;
+    margin-top: -20px;
+  }
+  @media (max-width:768px) {
+    .filter-popup7 {
+      display: none;
+  
+    }
+    .custom-popover7 {
+      display: none;
+    }
+    
+    .custom-popover7 .popover-body {
+     display: none;
+    }
+    /* .head-icons{
+      height: 100px;
+    } */
+    
+  }
+
+  .actual-head3 li {
+    float: left;
+    margin: 10px;
+    color:white;
+  }
+  
+  .actual-head3 li:hover {
+    float: left;
+    margin: 10px;
+  
+    cursor: pointer;
+  }
+
+
+  .btn.sell {
+    background-color: transparent;
+    color: white;
+    border-color: white;
+    transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+  }
+  
+  .btn.sell:hover {
+    background-color: white;
+    color: #111a84; /* Change text color to blue on hover */
+    border-color: 1px black solid;
+  }

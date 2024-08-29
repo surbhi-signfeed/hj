@@ -1,0 +1,194 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+
+.about-img{
+    height: 406px;
+    width: 272px;
+    border-radius: 8px;
+}
+.about-img121{
+  height: 338px;
+  width: 248px;
+  border-radius: 8px;
+}
+.about-h{
+    font-size: 42px;
+    color: black;
+    line-height: 1.2;
+}
+.about-h1{
+  font-size: 32px;
+  color: black;
+  line-height: 1.2;
+  font-weight: 500;
+
+}
+.about-p{
+  /* font-weight: 300; */
+    font-size: 16px;
+    line-height: 1.7;
+    color: #333538;
+}
+.about-apan{
+  font-size: 16px;
+color: black;
+  font-weight: 500;
+  margin-top: 15px;
+}
+
+.about-img2{
+   height: 612px;
+  width: 100%; 
+   object-fit: cover;
+}
+.about-img3{
+    height: 458px;
+    width: 100%; 
+    object-fit: cover;
+ }
+ 
+  .overlay-image {
+    position: relative;
+  }
+  
+  .about-img-height{
+    height:600px;
+  }
+  .about-padd{
+    padding: 50px;
+  }  
+  
+@media (max-width: 767px) {
+  
+  .about-img{
+    height: 261px;
+    width: 175px;
+    border-radius: 8px;
+}
+.about-img-again{
+  height: 150px;
+  width: 150px;
+  border-radius: 8px;
+  margin: 10px;
+}
+.about-h{
+    font-size: 30px;
+}
+.about-img2{
+   height: 254px;
+   width: 100%; 
+   object-fit: cover;
+}
+.about-img3{
+    height: 254px;
+    width: 100%; 
+    object-fit: cover;
+ }
+ 
+  
+  .overlay-image {
+    position: relative;
+  }
+  
+  .about-img-height{
+    height:250px;
+  }
+  .about-padd{
+    padding: 0px;
+  }  
+  .footer-social a {
+    margin: 0 10px;
+    color: white;
+    font-size: 18px;
+  }
+  
+  .footer-nav a{
+    margin: 0 2px;
+  }
+}
+
+  
+/* Mobile Devices (up to 767px) */
+/* @media (max-width: 767px) {
+ 
+} */
+
+
+
+.team-section {
+  text-align: center;
+  position: relative;
+}
+
+.background-image {
+  background-image: url('https://hjrealestates.com/wp-content/uploads/2023/08/hj-real-estates-about-our-team-bg.jpg');
+  background-size: cover;
+  background-position: center;
+  padding: 60px 20px;
+  height: 350px;
+  position: relative;
+  color: white;
+  z-index: 1;
+  margin-top: 40px;
+}
+
+.background-image .overlay {
+  background: rgba(0, 0, 0, 0.5);
+  padding: 40px;
+  border-radius: 8px;
+}
+
+.team-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 20px;
+  position: relative;
+  z-index: 2;
+  margin-top: -100px; /* Adjust as needed to position cards above the background image */
+}
+
+.cardp {
+  background: white;
+  border-radius: 8px;
+
+  margin: 10px;
+  overflow: hidden;
+  max-width: 200px;
+  flex: 1 1 calc(50% - 20px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 50%;
+  height: auto;
+}
+
+.cardp img {
+width: 100%;
+  height: auto;
+}
+
+.cardp-content {
+  padding: 16px;
+  text-align: center;
+}
+
+.cardp-content h3 {
+  font-size: 1.2em;
+  margin: 0;
+  text-align: left;
+  color: black;
+}
+
+.cardp-content p {
+  font-size: 0.8em;
+  color: #555;
+  text-align: left;
+  font-style: italic;
+}
+
+@media (max-width: 768px) {
+  .cardp {
+    flex: 1 1 100%;
+    max-width: 100%;
+  }
+}

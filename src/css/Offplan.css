@@ -1,0 +1,351 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+body {
+  font-family: "Poppins", sans-serif !important;
+}
+
+.offp-imgg {
+  height: 600px;
+  width:98.8vw;
+}
+h1 {
+  font-size: 52px;
+}
+h2 {
+  font-size: 42px;
+  line-height: 1.2;
+}
+.hhh {
+  color: black;
+}
+.divsection {
+  background-color: #abb8c3;
+  height: 291px;
+  width: 1550px;
+}
+.divsection2 {
+  padding-top: 72px;
+  padding-bottom: 72px;
+}
+.image-container {
+  position: relative;
+  display: inline-block;
+  
+  
+}
+#if{
+  height: 300px;
+  width: 100%;
+}
+
+.overlayss {
+ 
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #dde2e7; /* semi-transparent blue overlay */
+  display: flex;
+  opacity: 0.50;
+  justify-content: center;
+  align-items: center;
+  font-size: 2em;
+  text-align: center;
+}
+
+
+#diamond{
+  font-size: 32px;
+  font-weight: bold;color: black;
+}
+.diamondpara{
+  font-size: 15px;
+
+}
+#bb1{
+  transform: translate(80%,200px);
+  border: none;
+  border-radius: 0px;
+  box-shadow: none;
+  text-transform: capitalize;
+
+}
+.overlayss img{
+margin-top: -300px;
+height: 100px;
+}
+.div-offplan {
+  height: 170px;
+  background-color: white;
+  border: 2px solid white;
+  width: 1000px;
+  margin-top: 20%;
+  border-radius: 10px;
+}
+.divAmenities {
+  height: 107px;
+  width: 291px;
+  background-color: #a7aecc;
+  border-radius: 5px;
+}
+.divLocation {
+  border: 2px solid black;
+  height: 107px;
+  width: 291px;
+  border-radius: 10px;
+}
+
+
+#office1{
+height: 170px;
+background-color:#f0f2ff ;
+}
+#col1{
+  transform: translateY(40px);
+}
+#col1 h3{
+  margin-top: 10px;
+}
+#col1 h2{
+  color: #2C378F;
+}
+#c2{
+  height: 300px;
+  background-color:#f0f2ff ;
+  }
+  .percentdiv{
+    height: 80px;
+    background-color: white;
+    width: 250px;
+    
+    border-bottom: 2px solid #2C378F;
+  }
+  
+  .react-tel-input .flag-dropdown {
+    background-color: transparent;
+    border: none;
+  }
+  .PhoneInput {
+    border: none;
+    width: 100%;
+
+
+    border-radius: 4px;
+    margin-bottom: 10px;
+  }
+  .l1{
+    height: 120px;
+    width: 240px;
+    background-color: #f0f2ff;
+    border: 2px solid black;
+    border-radius: 20px;
+   
+  }
+  .l1 .row1{
+  margin-top: 20px;
+  margin-left: 10px;
+  }
+  .l1 .row1 p{
+  font-size: 13px;
+  text-align: left;
+  margin-left: 20px;
+  }
+  .l1 .row1 h6{
+    font-size: 13px;
+    text-align: left;
+    margin-left: 20px;
+    }
+  .ii1{
+color: #2C378F;
+font-size: 32px;
+float: right;
+  }
+  .bhk{
+    color: #2C378F;
+    background-color: #f0f2ff; 
+    border: none;
+    box-shadow: none;
+    margin-top: 20px;
+    height: 50px;
+  }
+  .active-button {
+    background-color: #2C378F;
+    color: white;
+    /* other styles for active button */
+  }
+
+.bhkimg{
+  height: 446px;
+  width:654px;
+
+}
+#sticky{
+  width: 98vw;
+  top: 0;
+  z-index: 100;
+}
+.offp-h{
+margin-top: -80px;
+}
+.exect-p{
+ margin-top: -20px;
+ color: #2C378F;
+}
+
+  @media (max-width:767px){
+    #pleft{
+      text-align: center;
+    }
+    .offp-imgg,.overlayss {
+      height: 90vh;
+      width: 100%;
+      margin: 0;
+    
+  }
+ 
+  .offdiV{
+    margin-top: 100px;
+
+  }
+  .div-offplan {
+    margin-top: 300px;
+    width: 90vw;
+    height: 100%;
+    margin-left: 10px;
+ 
+    margin-right: 10px;
+  }
+  .bhkimg{
+  height:300px;
+    width:100%;
+    margin-top: 20px;
+  
+  }
+  #sticky{
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+border-bottom: 1px solid grey;
+  }
+  #office1{
+    height: 400px;
+  }
+  #bb1{
+display: none;
+  }
+  #c2{
+    height: 500px;
+  }
+  .l1 {
+    margin: 10px;
+
+
+  }
+  #diamond{
+    font-size: 22px;
+  }
+  .l1 .row1 h6 {margin-top: -30px;}
+  #if{
+    height: 300px;
+    width: 100%;
+  }
+  .offp-imgg {
+   margin: 0%;
+    width: 100%;
+   
+  }
+  .offp-h{
+    margin-top: -120px;
+    }
+    .exect-p{
+      margin-top: -100px;
+      color: #2C378F;
+     }
+     .image-container {
+    margin: 0px;
+    padding: 0px;
+    }
+    .headfont{
+      font-size: 20px;
+    }
+    .parafont{
+      font-size: 18px;
+    }
+    #col1{
+      transform: translateY(0px);
+    }
+   .mtop{
+    margin-top: 40px;
+   }
+  }
+
+
+  @media (min-width:768px) and (max-width:1200px){
+   .div-offplan {
+    margin-top: 300px;
+    width: 90vw;
+ 
+    margin-left: 10px;
+ 
+    margin-right: 10px;
+  }
+  .percentdiv{
+    width: auto;
+  }
+  #sticky{
+  width: 100%;
+      }
+      #bb1{
+        display: none;
+          }
+          .bhkimg {
+            width:60vw;
+          }
+          #if{
+            height: 300px;
+            width: 80vw;
+          }
+          #mhide{
+            display: none;
+          }
+          #diamond{
+            font-size: 20px;
+          }
+          #oasis{
+            width: 100vw;
+            text-align: center;
+          }
+  }
+  @media(max-width:320px){
+    .div-offplan {
+      margin-top: 250px;
+      width: 90vw;
+      height: 90%;
+      margin-left: 10px;
+   
+      margin-right: 10px;
+    }
+    offp-imgg,.overlayss {
+      height: 95vh;
+      width: 100%;
+      margin: 0;
+    
+  }
+  }
+
+  .imgage-offplans {
+    position: relative;
+    overflow: hidden;
+    padding-top: 75%; /* Aspect ratio 4:3 (change to 56.25% for 16:9, or 100% for square) */
+  }
+  
+  .imgage-offplans img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensures image covers the entire container */
+  }
+  

@@ -1,0 +1,299 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+/* body {
+  font-family: "Poppins", sans-serif;
+  color: #333538;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 1.7;
+} */
+
+/* rent filetr */
+
+.filter-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0px;
+  height: 80px;
+
+  margin-bottom: 20px;
+  background-color: #006;
+}
+
+.filter-container input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  /* margin: 20px; */
+  width: 450px;
+  /* margin-left: 10px; */
+}
+
+.s-conatiner {
+  position: relative;
+  /* padding-left: 100px; */
+}
+
+.search-iconRent {
+  position: absolute;
+
+  right: 30px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #999;
+  cursor: pointer;
+}
+
+.filter-container select {
+  padding: 10px;
+  border: 1px solid #ccc;
+
+  width: 300px;
+}
+.filter-container button {
+  padding: 10px 20px;
+  border: none;
+  background-color: #2c378f;
+  color: white;
+  border-radius: 30px;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.filter-container button:hover {
+  background-color: #0056b3;
+}
+
+.filter-sort {
+  display: flex;
+  align-items: center;
+  float: right;
+}
+
+.filter-sort select {
+  /* padding: 10px; */
+  border: 1px solid #00224f;
+  border-radius: 4px;
+}
+#shiftleft{
+  margin-left: 30px;
+}
+.property-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+
+}
+
+.property-card {
+  border: 1px solid #ccc;
+  padding: 10px;
+  width: calc(33.333% - 20px);
+  box-sizing: border-box;
+}
+
+.property-card img {
+  max-width: 100%;
+}
+
+.property-card h3 {
+  font-size: 18px;
+  margin: 10px 0;
+}
+
+@media (max-width: 768px) {
+  .property-card {
+    width: calc(50% - 20px);
+  }
+}
+
+@media (max-width: 480px) {
+  .property-card {
+    width: 100%;
+  }
+}
+
+.rentp {
+  text-align: left;
+  font-size: 18px;
+}
+
+/* src/App.css */
+
+.rentcard {
+  position: relative;
+  border: 1px solid #ddd;
+
+  overflow: hidden;
+  width: 25vw;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin: 16px;
+  text-align: center;
+}
+
+.rentcard-type {
+  position: absolute;
+  top: 8px;
+  left: 8px;
+  background-color: white;
+  padding: 8px 8px;
+  font-size: 12px;
+  height: 35px;
+  width: auto;
+
+  text-transform: uppercase;
+}
+
+.rentcard-image {
+  aspect-ratio: 3/2;
+  width: 100%;
+  height: auto;
+}
+
+.rentcard-content {
+  padding: 16px;
+}
+
+.rentcard-price {
+  font-size: 18px;
+  text-align: left;
+  font-weight: bold;
+  color: #333;
+}
+
+.rentcard-title {
+  text-align: left;
+  font-size: 16px;
+  margin: 8px 0;
+  color:black;
+}
+
+.rentcard-location {
+  font-size: 14px;
+  color: #777;
+}
+
+.rentcard-actions {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  margin-top: 25px;
+}
+
+.rentcard-action {
+  text-decoration: none;
+  color: #525558;
+  font-size: 14px;
+}
+
+.rentcard-action:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 767px) {
+  .navbars-container {
+    flex-direction: column;
+  }
+
+  .nav-menu {
+    flex-direction: column;
+    width: 100%;
+    display: none;
+  }
+
+  .nav-menu li {
+    margin: 10px 0;
+  }
+  .nav-menu.active {
+    display: flex;
+  }
+
+  .nav-menu li {
+    margin: 10px 0;
+  }
+
+  .navbar-toggle {
+    display: block;
+  }
+
+  .navbars-container.active .nav-menu {
+    display: flex;
+  }
+  .filter-container input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    /* margin: 20px; */
+    width: 100%;
+   
+    margin-top: 10px;
+  }
+  .filter-container select {
+    padding: 10px;
+    border: 1px solid #ccc;
+  
+    width: 100%
+;    margin-top: 10px;
+  }
+  .filter-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 0px;
+    height: 280px;
+
+    margin-bottom: 20px;
+    background-color: #006;
+  }
+  .filter-container button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #2c378f;
+    color: white;
+    border-radius: 30px;
+    cursor: pointer;
+    margin-left: 100px;
+  }
+  .rentp {
+    text-align: left;
+    font-size: 13px;
+}
+#shiftleft{
+  margin-left: 0px;
+}
+.s-conatiner {
+  position: relative;
+width: 100%;
+}
+.rentcard {
+  position: relative;
+  border: 1px solid #ddd;
+
+  overflow: hidden;
+  width: 100%;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin: 0px;
+  text-align: center;
+}
+.rentcard-actions {gap: 40px;}
+}
+
+
+@media(max-width:320px){
+  .rentcard-actions {gap: 30px;}
+}
+
+
+@media (min-width: 768px) and (max-width: 1200px) {
+ 
+
+  .rentcard-actions {
+    gap: 15px; /* Adjusted gap between actions */
+  }
+  #mostr {
+    width: 100%;
+    /* margin-right: 120px; */
+}
+
+}
